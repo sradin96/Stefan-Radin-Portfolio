@@ -96,6 +96,10 @@ $gray-text: #515151;
             margin: 2rem;
         }
     }
+    .skills{
+        flex-direction: column-reverse;
+    }
+
     .my-skills, .about-me{
         text-align: center;
     }
@@ -103,6 +107,7 @@ $gray-text: #515151;
     .skills-images, .about-images{
         @include flex(center, center, row);
     }
+    
 
     .first-project, .second-project{
         flex: 1 1 50rem;
