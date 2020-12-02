@@ -544,12 +544,11 @@ nav ul {
 }
 
 .form-section form button {
-  width: 40%;
-  font-family: "Montserrat", sans-serif;
-  padding: 1rem;
   background: #515151;
   color: white;
-  border-radius: 1rem;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 footer {
